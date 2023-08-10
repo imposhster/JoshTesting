@@ -1,0 +1,1309 @@
+{
+    "abstract": [
+        {
+            "type": "text",
+            "text": "The payload for configuring a passcode policy."
+        }
+    ],
+    "hierarchy": {
+        "paths": [
+            [
+                "doc://com.apple.documentation/documentation/technologies",
+                "doc://com.apple.documentation/documentation/devicemanagement",
+                "doc://com.apple.documentation/documentation/devicemanagement/profile-specific_payload_keys"
+            ]
+        ]
+    },
+    "identifier": {
+        "url": "doc://com.apple.documentation/documentation/devicemanagement/passcode",
+        "interfaceLanguage": "swift"
+    },
+    "metadata": {
+        "title": "Passcode",
+        "role": "dictionarySymbol",
+        "roleHeading": "Device Management Profile",
+        "modules": [
+            {
+                "name": "Device Management"
+            }
+        ],
+        "platforms": [
+            {
+                "name": "iOS",
+                "introducedAt": "4.0",
+                "current": "17.0"
+            },
+            {
+                "name": "iPadOS",
+                "introducedAt": "4.0",
+                "current": "17.0"
+            },
+            {
+                "name": "macOS",
+                "introducedAt": "10.7",
+                "current": "14.0"
+            },
+            {
+                "name": "watchOS",
+                "introducedAt": "10.0",
+                "current": "10.0",
+                "beta": true
+            }
+        ],
+        "externalID": "mdm-profiles:Passcode",
+        "symbolKind": "dict",
+        "fragments": [
+            {
+                "kind": "text",
+                "text": "object "
+            },
+            {
+                "kind": "identifier",
+                "text": "Passcode"
+            }
+        ]
+    },
+    "schemaVersion": {
+        "major": 0,
+        "minor": 3,
+        "patch": 0
+    },
+    "sections": [],
+    "variants": [
+        {
+            "traits": [
+                {
+                    "interfaceLanguage": "occ"
+                }
+            ],
+            "paths": [
+                "documentation/devicemanagement/passcode"
+            ]
+        },
+        {
+            "traits": [
+                {
+                    "interfaceLanguage": "swift"
+                }
+            ],
+            "paths": [
+                "documentation/devicemanagement/passcode"
+            ]
+        }
+    ],
+    "references": {
+        "doc://com.apple.documentation/documentation/devicemanagement": {
+            "title": "Device Management",
+            "identifier": "doc://com.apple.documentation/documentation/devicemanagement",
+            "url": "/documentation/devicemanagement",
+            "type": "topic",
+            "kind": "symbol",
+            "role": "collection"
+        },
+        "doc://com.apple.documentation/documentation/devicemanagement/profile-specific_payload_keys": {
+            "title": "Profile-Specific Payload Keys",
+            "identifier": "doc://com.apple.documentation/documentation/devicemanagement/profile-specific_payload_keys",
+            "url": "/documentation/devicemanagement/profile-specific_payload_keys",
+            "type": "topic",
+            "kind": "article",
+            "role": "collectionGroup"
+        },
+        "doc://com.apple.documentation/documentation/devicemanagement/profile-specific_payload_keys/passcode#3239591": {
+            "title": "Table 1",
+            "type": "section",
+            "identifier": "doc://com.apple.documentation/documentation/devicemanagement/profile-specific_payload_keys/passcode#3239591",
+            "kind": "article",
+            "role": "table",
+            "url": "/documentation/devicemanagement/profile-specific_payload_keys/passcode#3239591"
+        },
+        "doc://com.apple.documentation/documentation/devicemanagement/passcode/customregex": {
+            "title": "Passcode.CustomRegex",
+            "type": "topic",
+            "identifier": "doc://com.apple.documentation/documentation/devicemanagement/passcode/customregex",
+            "kind": "symbol",
+            "role": "dictionarySymbol",
+            "url": "/documentation/devicemanagement/passcode/customregex",
+            "abstract": [
+                {
+                    "type": "text",
+                    "text": "The regex defining the passcode policy."
+                }
+            ],
+            "fragments": [
+                {
+                    "kind": "text",
+                    "text": "object "
+                },
+                {
+                    "kind": "identifier",
+                    "text": "Passcode.CustomRegex"
+                }
+            ]
+        },
+        "doc://com.apple.documentation/documentation/devicemanagement/passcode": {
+            "title": "Passcode",
+            "type": "topic",
+            "identifier": "doc://com.apple.documentation/documentation/devicemanagement/passcode",
+            "kind": "symbol",
+            "role": "dictionarySymbol",
+            "url": "/documentation/devicemanagement/passcode",
+            "abstract": [
+                {
+                    "type": "text",
+                    "text": "The payload for configuring a passcode policy."
+                }
+            ],
+            "fragments": [
+                {
+                    "kind": "text",
+                    "text": "object "
+                },
+                {
+                    "kind": "identifier",
+                    "text": "Passcode"
+                }
+            ]
+        },
+        "doc://com.apple.documentation/documentation/devicemanagement/securitypreferences": {
+            "title": "SecurityPreferences",
+            "type": "topic",
+            "identifier": "doc://com.apple.documentation/documentation/devicemanagement/securitypreferences",
+            "kind": "symbol",
+            "role": "dictionarySymbol",
+            "url": "/documentation/devicemanagement/securitypreferences",
+            "abstract": [
+                {
+                    "type": "text",
+                    "text": "The payload for configuring security preferences."
+                }
+            ],
+            "fragments": [
+                {
+                    "kind": "text",
+                    "text": "object "
+                },
+                {
+                    "kind": "identifier",
+                    "text": "SecurityPreferences"
+                }
+            ]
+        },
+        "doc://com.apple.documentation/documentation/devicemanagement/smartcard": {
+            "title": "SmartCard",
+            "type": "topic",
+            "identifier": "doc://com.apple.documentation/documentation/devicemanagement/smartcard",
+            "kind": "symbol",
+            "role": "dictionarySymbol",
+            "url": "/documentation/devicemanagement/smartcard",
+            "abstract": [
+                {
+                    "type": "text",
+                    "text": "The payload for configuring a smart card."
+                }
+            ],
+            "fragments": [
+                {
+                    "kind": "text",
+                    "text": "object "
+                },
+                {
+                    "kind": "identifier",
+                    "text": "SmartCard"
+                }
+            ]
+        },
+        "doc://com.apple.documentation/documentation/technologies": {
+            "type": "topic",
+            "identifier": "doc://com.apple.documentation/documentation/technologies",
+            "url": "/documentation/technologies",
+            "kind": "technologies",
+            "title": "Technologies"
+        }
+    },
+    "diffAvailability": {
+        "minor": {
+            "change": "modified",
+            "platform": "Xcode",
+            "versions": [
+                "14.3",
+                "15.0 beta 6"
+            ]
+        },
+        "major": {
+            "change": "modified",
+            "platform": "Xcode",
+            "versions": [
+                "14.0 beta 5",
+                "15.0 beta 6"
+            ]
+        }
+    },
+    "topicSections": [
+        {
+            "kind": "taskGroup",
+            "title": "Profiles",
+            "identifiers": [
+                "doc://com.apple.documentation/documentation/devicemanagement/passcode/customregex"
+            ],
+            "anchor": "4193226"
+        }
+    ],
+    "seeAlsoSections": [
+        {
+            "identifiers": [
+                "doc://com.apple.documentation/documentation/devicemanagement/securitypreferences",
+                "doc://com.apple.documentation/documentation/devicemanagement/smartcard"
+            ],
+            "title": "Security",
+            "generated": true
+        }
+    ],
+    "primaryContentSections": [
+        {
+            "title": "Properties",
+            "kind": "properties",
+            "items": [
+                {
+                    "name": "allowSimple",
+                    "type": [
+                        {
+                            "kind": "text",
+                            "text": "boolean"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "kind": "default",
+                            "title": "Default",
+                            "value": "true"
+                        }
+                    ],
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "inlineContent": [
+                                {
+                                    "type": "text",
+                                    "text": "If "
+                                },
+                                {
+                                    "type": "codeVoice",
+                                    "code": "false"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": ", the system prevents use of a simple passcode. A simple passcode contains repeated characters, or increasing or decreasing characters, such as "
+                                },
+                                {
+                                    "type": "codeVoice",
+                                    "code": "123"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " or "
+                                },
+                                {
+                                    "type": "codeVoice",
+                                    "code": "CBA"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "."
+                                }
+                            ]
+                        }
+                    ],
+                    "typeDetails": [
+                        {
+                            "baseType": "boolean"
+                        }
+                    ]
+                },
+                {
+                    "name": "changeAtNextAuth",
+                    "type": [
+                        {
+                            "kind": "text",
+                            "text": "boolean"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "kind": "default",
+                            "title": "Default",
+                            "value": "false"
+                        }
+                    ],
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "inlineContent": [
+                                {
+                                    "type": "text",
+                                    "text": "If "
+                                },
+                                {
+                                    "type": "codeVoice",
+                                    "code": "true"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": ", the system causes a password reset to occur the next time the user tries to authenticate. If this key is set in a device profile, the setting takes effect for all users, and admin authentications may fail until the admin user password is also reset. Available in macOS 10.13 and later."
+                                }
+                            ]
+                        }
+                    ],
+                    "typeDetails": [
+                        {
+                            "baseType": "boolean"
+                        }
+                    ]
+                },
+                {
+                    "name": "customRegex",
+                    "type": [
+                        {
+                            "kind": "typeIdentifier",
+                            "preciseIdentifier": "mdm-profiles:Passcode.CustomRegex",
+                            "identifier": "doc://com.apple.documentation/documentation/devicemanagement/passcode/customregex",
+                            "text": "Passcode.CustomRegex"
+                        }
+                    ],
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "inlineContent": [
+                                {
+                                    "type": "text",
+                                    "text": "Specifies a regular expression, and its description, used to enforce password compliance. Use the simpler passcode restrictions whenever possible, and rely on regular expression matching only when necessary. Mistakes in regular expressions can lead to frustrating user experiences, such as unsatisfiable passcode policies, or policy descriptions that don’t match the enforced policy."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "inlineContent": [
+                                {
+                                    "type": "text",
+                                    "text": "Available in macOS 14 and later. "
+                                }
+                            ]
+                        }
+                    ],
+                    "typeDetails": [
+                        {
+                            "baseType": "dictionary"
+                        }
+                    ]
+                },
+                {
+                    "name": "forcePIN",
+                    "type": [
+                        {
+                            "kind": "text",
+                            "text": "boolean"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "kind": "default",
+                            "title": "Default",
+                            "value": "false"
+                        }
+                    ],
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "inlineContent": [
+                                {
+                                    "type": "text",
+                                    "text": "If "
+                                },
+                                {
+                                    "type": "codeVoice",
+                                    "code": "true"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": ", the system forces the user to enter a PIN."
+                                }
+                            ]
+                        }
+                    ],
+                    "typeDetails": [
+                        {
+                            "baseType": "boolean"
+                        }
+                    ]
+                },
+                {
+                    "name": "maxFailedAttempts",
+                    "type": [
+                        {
+                            "kind": "text",
+                            "text": "integer"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "kind": "default",
+                            "title": "Default",
+                            "value": "11"
+                        },
+                        {
+                            "kind": "maximum",
+                            "title": "Maximum Value",
+                            "value": "11"
+                        },
+                        {
+                            "kind": "minimum",
+                            "title": "Minimum Value",
+                            "value": "2"
+                        }
+                    ],
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "inlineContent": [
+                                {
+                                    "type": "text",
+                                    "text": "The number of allowed failed attempts to enter the passcode at the device’s lock screen. After six failed attempts, the system imposes a time delay before a passcode can be entered again. The delay increases with each attempt. In macOS, set "
+                                },
+                                {
+                                    "type": "codeVoice",
+                                    "code": "minutesUntilFailedLoginReset"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " to define a delay before the next passcode can be entered. When this number is exceeded in macOS, the system locks the device; in iOS, the system wipes the device."
+                                }
+                            ]
+                        }
+                    ],
+                    "typeDetails": [
+                        {
+                            "baseType": "integer"
+                        }
+                    ]
+                },
+                {
+                    "name": "maxGracePeriod",
+                    "type": [
+                        {
+                            "kind": "text",
+                            "text": "integer"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "kind": "default",
+                            "title": "Default",
+                            "value": "0"
+                        }
+                    ],
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "inlineContent": [
+                                {
+                                    "type": "text",
+                                    "text": "The maximum grace period, in minutes, to unlock the phone without entering a passcode. The default is "
+                                },
+                                {
+                                    "type": "codeVoice",
+                                    "code": "0"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": ", which is no grace period and requires a passcode immediately. In macOS, the system translates this grace period value to screen-saver settings."
+                                }
+                            ]
+                        }
+                    ],
+                    "typeDetails": [
+                        {
+                            "baseType": "integer"
+                        }
+                    ]
+                },
+                {
+                    "name": "maxInactivity",
+                    "type": [
+                        {
+                            "kind": "text",
+                            "text": "integer"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "kind": "maximum",
+                            "title": "Maximum Value",
+                            "value": "15"
+                        },
+                        {
+                            "kind": "minimum",
+                            "title": "Minimum Value",
+                            "value": "0"
+                        }
+                    ],
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "inlineContent": [
+                                {
+                                    "type": "text",
+                                    "text": "The maximum number of minutes for which the device can be idle without the user unlocking it, before the system locks it. When this limit is reached, the system locks the device and the passcode is required to unlock it. The user can edit this setting, but the value can’t exceed the "
+                                },
+                                {
+                                    "type": "codeVoice",
+                                    "code": "maxInactivity"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " value. "
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "inlineContent": [
+                                {
+                                    "type": "text",
+                                    "text": "In macOS, the system translates this inactivity value to screen-saver settings. The maximum value for macOS is "
+                                },
+                                {
+                                    "type": "codeVoice",
+                                    "code": "60"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "inlineContent": [
+                                {
+                                    "type": "text",
+                                    "text": "Setting this key removes the "
+                                },
+                                {
+                                    "type": "codeVoice",
+                                    "code": "never"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " option in the Settings UI on user enrolled devices. "
+                                }
+                            ]
+                        }
+                    ],
+                    "typeDetails": [
+                        {
+                            "baseType": "integer"
+                        }
+                    ]
+                },
+                {
+                    "name": "maxPINAgeInDays",
+                    "type": [
+                        {
+                            "kind": "text",
+                            "text": "integer"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "kind": "maximum",
+                            "title": "Maximum Value",
+                            "value": "730"
+                        },
+                        {
+                            "kind": "minimum",
+                            "title": "Minimum Value",
+                            "value": "0"
+                        }
+                    ],
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "inlineContent": [
+                                {
+                                    "type": "text",
+                                    "text": "The number of days for which the passcode can remain unchanged. After this number of days, the system forces the user to change the passcode before it unlocks the device."
+                                }
+                            ]
+                        }
+                    ],
+                    "typeDetails": [
+                        {
+                            "baseType": "integer"
+                        }
+                    ]
+                },
+                {
+                    "name": "minComplexChars",
+                    "type": [
+                        {
+                            "kind": "text",
+                            "text": "integer"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "kind": "default",
+                            "title": "Default",
+                            "value": "0"
+                        },
+                        {
+                            "kind": "maximum",
+                            "title": "Maximum Value",
+                            "value": "4"
+                        },
+                        {
+                            "kind": "minimum",
+                            "title": "Minimum Value",
+                            "value": "0"
+                        }
+                    ],
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "inlineContent": [
+                                {
+                                    "type": "text",
+                                    "text": "The minimum number of complex characters that a passcode needs to contain. A "
+                                },
+                                {
+                                    "type": "emphasis",
+                                    "inlineContent": [
+                                        {
+                                            "type": "text",
+                                            "text": "complex"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " character is a character other than a number or a letter, such as "
+                                },
+                                {
+                                    "type": "codeVoice",
+                                    "code": "&"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": ", "
+                                },
+                                {
+                                    "type": "codeVoice",
+                                    "code": "%"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": ", "
+                                },
+                                {
+                                    "type": "codeVoice",
+                                    "code": "$"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": ", and "
+                                },
+                                {
+                                    "type": "codeVoice",
+                                    "code": "#"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "paragraph",
+                            "inlineContent": [
+                                {
+                                    "type": "text",
+                                    "text": "The system ignores this property for User Enrollments."
+                                }
+                            ]
+                        }
+                    ],
+                    "typeDetails": [
+                        {
+                            "baseType": "integer"
+                        }
+                    ]
+                },
+                {
+                    "name": "minLength",
+                    "type": [
+                        {
+                            "kind": "text",
+                            "text": "integer"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "kind": "default",
+                            "title": "Default",
+                            "value": "0"
+                        },
+                        {
+                            "kind": "maximum",
+                            "title": "Maximum Value",
+                            "value": "16"
+                        },
+                        {
+                            "kind": "minimum",
+                            "title": "Minimum Value",
+                            "value": "0"
+                        }
+                    ],
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "inlineContent": [
+                                {
+                                    "type": "text",
+                                    "text": "The minimum overall length of the passcode. This value is independent of the value for "
+                                },
+                                {
+                                    "type": "codeVoice",
+                                    "code": "minComplexChars"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": "."
+                                }
+                            ]
+                        }
+                    ],
+                    "typeDetails": [
+                        {
+                            "baseType": "integer"
+                        }
+                    ]
+                },
+                {
+                    "name": "minutesUntilFailedLoginReset",
+                    "type": [
+                        {
+                            "kind": "text",
+                            "text": "integer"
+                        }
+                    ],
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "inlineContent": [
+                                {
+                                    "type": "text",
+                                    "text": "The number of minutes before the system resets the login after the maximum number of unsuccessful login attempts is reached. This key requires setting "
+                                },
+                                {
+                                    "type": "codeVoice",
+                                    "code": "maxFailedAttempts"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": ". Available in macOS 10.10 and later."
+                                }
+                            ]
+                        }
+                    ],
+                    "typeDetails": [
+                        {
+                            "baseType": "integer"
+                        }
+                    ]
+                },
+                {
+                    "name": "pinHistory",
+                    "type": [
+                        {
+                            "kind": "text",
+                            "text": "integer"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "kind": "maximum",
+                            "title": "Maximum Value",
+                            "value": "50"
+                        },
+                        {
+                            "kind": "minimum",
+                            "title": "Minimum Value",
+                            "value": "1"
+                        }
+                    ],
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "inlineContent": [
+                                {
+                                    "type": "text",
+                                    "text": "This value defines "
+                                },
+                                {
+                                    "type": "emphasis",
+                                    "inlineContent": [
+                                        {
+                                            "type": "text",
+                                            "text": "N"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "text",
+                                    "text": ", where the new passcode must be unique within the last "
+                                },
+                                {
+                                    "type": "emphasis",
+                                    "inlineContent": [
+                                        {
+                                            "type": "text",
+                                            "text": "N"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "text",
+                                    "text": " entries in the passcode history. "
+                                }
+                            ]
+                        }
+                    ],
+                    "typeDetails": [
+                        {
+                            "baseType": "integer"
+                        }
+                    ]
+                },
+                {
+                    "name": "requireAlphanumeric",
+                    "type": [
+                        {
+                            "kind": "text",
+                            "text": "boolean"
+                        }
+                    ],
+                    "attributes": [
+                        {
+                            "kind": "default",
+                            "title": "Default",
+                            "value": "false"
+                        }
+                    ],
+                    "content": [
+                        {
+                            "type": "paragraph",
+                            "inlineContent": [
+                                {
+                                    "type": "text",
+                                    "text": "If "
+                                },
+                                {
+                                    "type": "codeVoice",
+                                    "code": "true"
+                                },
+                                {
+                                    "type": "text",
+                                    "text": ", the system requires alphabetic characters instead of only numeric characters."
+                                }
+                            ]
+                        }
+                    ],
+                    "typeDetails": [
+                        {
+                            "baseType": "boolean"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "kind": "content",
+            "content": [
+                {
+                    "anchor": "discussion",
+                    "level": 2,
+                    "text": "Discussion",
+                    "type": "heading"
+                },
+                {
+                    "type": "paragraph",
+                    "inlineContent": [
+                        {
+                            "type": "text",
+                            "text": "Specify "
+                        },
+                        {
+                            "type": "codeVoice",
+                            "code": "com.apple.mobiledevice.passwordpolicy"
+                        },
+                        {
+                            "type": "text",
+                            "text": " as the payload type."
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "inlineContent": [
+                        {
+                            "type": "text",
+                            "text": "The presence of this payload type prompts an iOS or macOS device to present the user with a passcode entry mechanism. The complexity of the passcode can be customized with this payload."
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "inlineContent": [
+                        {
+                            "type": "text",
+                            "text": "On iOS User Enrollments, the system allows the Passcode payload type, but ignores all keys. Instead, the presence of the Passcode payload forces these settings:"
+                        }
+                    ]
+                },
+                {
+                    "type": "unorderedList",
+                    "items": [
+                        {
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "inlineContent": [
+                                        {
+                                            "type": "codeVoice",
+                                            "code": "allowSimple"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " = "
+                                        },
+                                        {
+                                            "type": "codeVoice",
+                                            "code": "false"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "inlineContent": [
+                                        {
+                                            "type": "codeVoice",
+                                            "code": "forcePIN"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " = "
+                                        },
+                                        {
+                                            "type": "codeVoice",
+                                            "code": "true"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "content": [
+                                {
+                                    "type": "paragraph",
+                                    "inlineContent": [
+                                        {
+                                            "type": "codeVoice",
+                                            "code": "minLength"
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": " = "
+                                        },
+                                        {
+                                            "type": "codeVoice",
+                                            "code": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "paragraph",
+                    "inlineContent": []
+                },
+                {
+                    "level": 3,
+                    "type": "heading",
+                    "text": "Profile Availability",
+                    "anchor": "3239611"
+                },
+                {
+                    "type": "paragraph",
+                    "inlineContent": []
+                },
+                {
+                    "type": "table",
+                    "header": "none",
+                    "rows": [
+                        [
+                            [
+                                {
+                                    "type": "paragraph",
+                                    "inlineContent": [
+                                        {
+                                            "type": "text",
+                                            "text": "Device Channel"
+                                        }
+                                    ]
+                                }
+                            ],
+                            [
+                                {
+                                    "type": "paragraph",
+                                    "inlineContent": [
+                                        {
+                                            "type": "text",
+                                            "text": "iOS, macOS, watchOS"
+                                        }
+                                    ]
+                                }
+                            ]
+                        ],
+                        [
+                            [
+                                {
+                                    "type": "paragraph",
+                                    "inlineContent": [
+                                        {
+                                            "type": "text",
+                                            "text": "User Channel"
+                                        }
+                                    ]
+                                }
+                            ],
+                            [
+                                {
+                                    "type": "paragraph",
+                                    "inlineContent": [
+                                        {
+                                            "type": "text",
+                                            "text": "-"
+                                        }
+                                    ]
+                                }
+                            ]
+                        ],
+                        [
+                            [
+                                {
+                                    "type": "paragraph",
+                                    "inlineContent": [
+                                        {
+                                            "type": "text",
+                                            "text": "Allow Manual Install"
+                                        }
+                                    ]
+                                }
+                            ],
+                            [
+                                {
+                                    "type": "paragraph",
+                                    "inlineContent": [
+                                        {
+                                            "type": "text",
+                                            "text": "iOS, macOS, watchOS"
+                                        }
+                                    ]
+                                }
+                            ]
+                        ],
+                        [
+                            [
+                                {
+                                    "type": "paragraph",
+                                    "inlineContent": [
+                                        {
+                                            "type": "text",
+                                            "text": "Requires Supervision"
+                                        }
+                                    ]
+                                }
+                            ],
+                            [
+                                {
+                                    "type": "paragraph",
+                                    "inlineContent": [
+                                        {
+                                            "type": "text",
+                                            "text": "-"
+                                        }
+                                    ]
+                                }
+                            ]
+                        ],
+                        [
+                            [
+                                {
+                                    "type": "paragraph",
+                                    "inlineContent": [
+                                        {
+                                            "type": "text",
+                                            "text": "Requires User Approved MDM"
+                                        }
+                                    ]
+                                }
+                            ],
+                            [
+                                {
+                                    "type": "paragraph",
+                                    "inlineContent": [
+                                        {
+                                            "type": "text",
+                                            "text": "-"
+                                        }
+                                    ]
+                                }
+                            ]
+                        ],
+                        [
+                            [
+                                {
+                                    "type": "paragraph",
+                                    "inlineContent": [
+                                        {
+                                            "type": "text",
+                                            "text": "Allowed in User Enrollment"
+                                        }
+                                    ]
+                                }
+                            ],
+                            [
+                                {
+                                    "type": "paragraph",
+                                    "inlineContent": [
+                                        {
+                                            "type": "text",
+                                            "text": "iOS"
+                                        }
+                                    ]
+                                }
+                            ]
+                        ],
+                        [
+                            [
+                                {
+                                    "type": "paragraph",
+                                    "inlineContent": [
+                                        {
+                                            "type": "text",
+                                            "text": "Allow Multiple Payloads"
+                                        }
+                                    ]
+                                }
+                            ],
+                            [
+                                {
+                                    "type": "paragraph",
+                                    "inlineContent": [
+                                        {
+                                            "type": "text",
+                                            "text": "iOS, macOS, watchOS"
+                                        }
+                                    ]
+                                }
+                            ]
+                        ]
+                    ],
+                    "metadata": {
+                        "anchor": "3239591",
+                        "title": "Table 1"
+                    }
+                },
+                {
+                    "type": "paragraph",
+                    "inlineContent": []
+                },
+                {
+                    "level": 3,
+                    "type": "heading",
+                    "text": "Profile Example",
+                    "anchor": "3915572"
+                },
+                {
+                    "type": "dictionaryExample",
+                    "example": {
+                        "content": [
+                            {
+                                "collapsible": false,
+                                "code": [
+                                    "<?xml version=”1.0” encoding=”UTF-8”?>",
+                                    "<!DOCTYPE plist PUBLIC “-//Apple//DTD PLIST 1.0//EN” “http://www.apple.com/DTDs/PropertyList-1.0.dtd”>",
+                                    "<plist version=”1.0”>",
+                                    "<dict>",
+                                    "    <key>PayloadContent</key>",
+                                    "    <array>",
+                                    "        <dict>",
+                                    "            <key>allowSimple</key>",
+                                    "            <true/>",
+                                    "            <key>forcePIN</key>",
+                                    "            <true/>",
+                                    "            <key>maxFailedAttempts</key>",
+                                    "            <integer>5</integer>",
+                                    "            <key>maxGracePeriod</key>",
+                                    "            <integer>1</integer>",
+                                    "            <key>maxInactivity</key>",
+                                    "            <integer>2</integer>",
+                                    "            <key>maxPINAgeInDays</key>",
+                                    "            <real>30</real>",
+                                    "            <key>minLength</key>",
+                                    "            <integer>8</integer>",
+                                    "            <key>pinHistory</key>",
+                                    "            <real>2</real>",
+                                    "            <key>requireAlphanumeric</key>",
+                                    "            <false/>",
+                                    "            <key>PayloadIdentifier</key>",
+                                    "            <string>com.example.mypasscodepayload</string>",
+                                    "            <key>PayloadType</key>",
+                                    "            <string>com.apple.mobiledevice.passwordpolicy</string>",
+                                    "            <key>PayloadUUID</key>",
+                                    "            <string>2a8a75e5-d17d-44d5-b062-3cb92161af9f</string>",
+                                    "            <key>PayloadVersion</key>",
+                                    "            <integer>1</integer>",
+                                    "        </dict>",
+                                    "    </array>",
+                                    "    <key>PayloadDisplayName</key>",
+                                    "    <string>Passcode</string>",
+                                    "    <key>PayloadIdentifier</key>",
+                                    "    <string>com.example.myprofile</string>",
+                                    "    <key>PayloadType</key>",
+                                    "    <string>Configuration</string>",
+                                    "    <key>PayloadUUID</key>",
+                                    "    <string>e044f50d-ff67-4bcd-9f3f-d7b678091061</string>",
+                                    "    <key>PayloadVersion</key>",
+                                    "    <integer>1</integer>",
+                                    "</dict>",
+                                    "</plist>"
+                                ]
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ],
+    "legalNotices": {
+        "copyright": "Copyright &copy; 2023 Apple Inc. All rights reserved.",
+        "termsOfUse": "https://www.apple.com/legal/internet-services/terms/site.html",
+        "privacyPolicy": "https://www.apple.com/privacy/privacy-policy"
+    }
+}
